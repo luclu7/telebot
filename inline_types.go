@@ -355,7 +355,7 @@ type VideoResult struct {
 	Description string `json:"description,omitempty"`
 
 	// uh
-	Content *InputMessageContent `json:"input_message_content,omitempty"`
+	Content *InputTextMessageContent `json:"input_message_content,omitempty"`
 
 	// If Cache != "", it'll be used instead
 	Cache string `json:"video_file_id,omitempty"`
